@@ -1,0 +1,93 @@
+a, a:visited {
+    text-decoration: underline;
+    color: #2596be;
+}
+a:hover {
+    text-decoration: underline;
+    color: #2596be;
+}
+
+p {
+    color:  #2c2a2d;
+}
+
+#content {
+    margin: auto;
+    width: 100%;
+    max-width: 650px;
+    text-align:justify;
+    font-family: palatino;
+}
+img#cabins {
+        float: center;
+        width: 100%;
+    }
+
+
+ul#heads {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul#heads li {
+    width: 100%;
+    position: relative;
+    float: left;
+    padding: 0 0 3%;
+}
+ul#heads li div {
+    display: inline-block;
+    height: 100%;
+    max-height: 100%;
+    position: relative;
+    vertical-align: bottom;
+    width: 15%;
+    /*max-width: 97px;*/
+    /*width: 100%;*/
+}
+ul#heads li img {
+    display: block;
+    vertical-align: bottom;
+    width: 100%;
+    filter: invert(5%) sepia(5%) saturate(2243%) hue-rotate(104deg) brightness(93%) contrast(86%);
+}
+ul#heads li blockquote {
+    display: inline-block;
+    margin: 0;
+    width: 65%;
+    /*max-width: 422px;*/
+    /*width: 100%;*/
+    /*max-height: 650px;*/
+    margin-left:10%;
+    padding:2%;
+    color:#2c2a2d;
+    vertical-align:bottom; 
+    horizontal-align: right;
+    background:#cbd3ce;
+
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  /*z-index: 2;*/
+}
+ul#heads li blockquote p {
+    font-size:min(calc(2vw + 2vh), 28px); 
+    /*line-height:1.25em;*/
+    text-align: center;
+}
+
+/* creates the triangle */
+ul#heads li blockquote:after {
+  content:"";
+  position:absolute;
+  top:50%;
+  left:19%;
+  border:15px solid transparent;
+  border-bottom-color:#cbd3ce;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+  border-width:20px 0 20px 50px;
+  z-index: -1;
+}
