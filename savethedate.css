@@ -16,8 +16,7 @@ p {
     width: 100%;
     max-width: 650px;
     text-align:justify;
-    /*font-family: math;*/
-    font-family: Palatino, 'Palatino Linotype', serif;
+    font-family: sans-serif;
 }
 img#cabins {
         float: center;
