@@ -16,7 +16,8 @@ p {
     width: 100%;
     max-width: 650px;
     text-align:justify;
-    font-family: palatino;
+    /*font-family: math;*/
+    font-family: Palatino, 'Palatino Linotype', serif;
 }
 img#cabins {
         float: center;
@@ -75,6 +76,8 @@ ul#heads li blockquote p {
     font-size:min(calc(2vw + 2vh), 28px); 
     /*line-height:1.25em;*/
     text-align: center;
+    font-family: Palatino, 'Palatino Linotype', serif;
+    font-style: italic;
 }
 
 /* creates the triangle */
