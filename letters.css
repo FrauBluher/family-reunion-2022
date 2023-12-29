@@ -1,0 +1,54 @@
+a, a:visited {
+    text-decoration: underline;
+    color: #2596be;
+}
+a:hover {
+    text-decoration: underline;
+    color: #2596be;
+}
+
+p {
+    color:  #2c2a2d;
+}
+
+#content {
+    margin: auto;
+    width: 100%;
+    max-width: 850px;
+    text-align:justify;
+    font-family: sans-serif;
+}
+
+.col3 {
+  float: left;
+  width: 32%;
+  padding: 0.5%;
+}
+
+
+.col4 {
+  float: left;
+  width: 24%;
+  padding: 0.5%;
+}
+
+
+.col5 {
+  float: left;
+  width: 19%;
+  padding: 0.5%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+img {
+    float: center;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
