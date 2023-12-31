@@ -12,6 +12,10 @@ p {
     font-size: 1em;
 }
 
+p.delete {
+    text-decoration: line-through;
+}
+
 #content {
     margin: auto;
     width: 100%;
