@@ -25,12 +25,17 @@ p.delete {
     font-family: sans-serif;
 }
 
+.col45 {
+  float: left;
+  width: 79%;
+  padding: 0.5%;
+}
+
 .col3 {
   float: left;
   width: 32%;
   padding: 0.5%;
 }
-
 
 .col4 {
   float: left;
